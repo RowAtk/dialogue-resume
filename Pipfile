@@ -4,9 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+dr = {editable = true,path = "."}
 
 [packages]
 nltk = "*"
+deepspeech = "*"
 
 [requires]
 python_version = "3.7"
